@@ -5,7 +5,7 @@
   "manifest_version": 2,
   "content_scripts": [
     {
-      "matches": ["https://*.myjetbrains.com/youtrack/*"], 
+      "matches": ["https://*.myjetbrains.com/youtrack*"], 
       "css" : ["youtrack-tweaks.css"]
     }]
 }

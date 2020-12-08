@@ -1,3 +1,15 @@
 .yt-full-screen-mode .yt-agile-card__summary, .yt-full-screen-mode .yt-drag-agile-card__summary, .yt-full-screen-mode .yt-agile-table__row-title__summary__text {
-    font-weight: 300;
+    font-weight: 300 !important;
+}
+
+.yt-agile-card_customizable .yt-agile-card__summary, .yt-agile-card_customizable .yt-drag-agile-card__summary {
+    font-size: 16px !important;
+}
+
+body .yt-issue-title {
+    font-size: 16px !important;
+}
+
+body .yt-issues-issue__id {
+    font-size: 14px !important;
 }
