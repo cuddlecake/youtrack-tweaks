@@ -7,6 +7,5 @@
     {
       "matches": ["https://*.myjetbrains.com/youtrack/*"], 
       "css" : ["youtrack-tweaks.css"]
-    }
-],
+    }]
 }
