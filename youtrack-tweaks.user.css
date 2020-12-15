@@ -16,14 +16,14 @@
 
   .yt-agile-card_customizable .yt-agile-card__summary,
   .yt-agile-card_customizable .yt-drag-agile-card__summary {
-    font-size: 16px !important;
+    font-size: 1rem !important;
   }
 
   .yt-issue-title {
-    font-size: 16px !important;
+    font-size: 1rem !important;
   }
 
   .yt-issues-issue__id {
-    font-size: 14px !important;
+    font-size: 0.875rem !important;
   }
 }
