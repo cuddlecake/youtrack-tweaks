@@ -1,25 +1,28 @@
 /* ==UserStyle==
-@name        Flip YouTrack Tweaks
-@namespace   Flip
+@name        YouTrack CSS Tweaks
 @version     2020.12.0
 @homepageURL https://github.com/cuddlecake/youtrack-tweaks
-@updateURL   https://raw.githubusercontent.com/cuddlecake/youtrack-tweaks/main/youtrack-tweaks.css
-@license     BSD-2-Clause
+@updateURL   https://raw.githubusercontent.com/cuddlecake/youtrack-tweaks/main/youtrack-tweaks.user.css
 @author      cuddlecake
 ==/UserStyle== */
 
-.yt-full-screen-mode .yt-agile-card__summary, .yt-full-screen-mode .yt-drag-agile-card__summary, .yt-full-screen-mode .yt-agile-table__row-title__summary__text {
+@-moz-document regexp("https://.*.myjetbrains.com/youtrack.*") {
+  .yt-full-screen-mode .yt-agile-card__summary,
+  .yt-full-screen-mode .yt-drag-agile-card__summary,
+  .yt-full-screen-mode .yt-agile-table__row-title__summary__text {
     font-weight: 300 !important;
-}
+  }
 
-.yt-agile-card_customizable .yt-agile-card__summary, .yt-agile-card_customizable .yt-drag-agile-card__summary {
+  .yt-agile-card_customizable .yt-agile-card__summary,
+  .yt-agile-card_customizable .yt-drag-agile-card__summary {
     font-size: 16px !important;
-}
+  }
 
-body .yt-issue-title {
+  .yt-issue-title {
     font-size: 16px !important;
-}
+  }
 
-body .yt-issues-issue__id {
+  .yt-issues-issue__id {
     font-size: 14px !important;
+  }
 }
