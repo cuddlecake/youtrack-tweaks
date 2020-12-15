@@ -7,7 +7,7 @@
 @author      cuddlecake
 ==/UserStyle== */
 
-@-moz-document regexp("^https?://(.*.myjetbrains.com/youtrack|youtrack.jetbrains.com)/.*"), @-moz {
+@-moz-document regexp("^https?://(.*.myjetbrains.com/youtrack|youtrack.jetbrains.com)/.*") {
   .yt-full-screen-mode .yt-agile-card__summary,
   .yt-full-screen-mode .yt-drag-agile-card__summary,
   .yt-full-screen-mode .yt-agile-table__row-title__summary__text {
