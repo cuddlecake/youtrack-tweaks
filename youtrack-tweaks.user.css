@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name        YouTrack CSS Tweaks
-@version     2021.3.1
+@version     2021.3.2
 @namespace   cuddlecake
 @homepageURL https://github.com/cuddlecake/youtrack-tweaks
 @updateURL   https://cuddlecake.github.io/youtrack-tweaks/youtrack-tweaks.user.css
@@ -31,7 +31,7 @@
     max-width: 70ch;
     margin-left: auto;
     margin-right: auto;
-    padding: calc(2*var(--ring-unit));
+    padding: var(--ring-unit);
     background: rgba(0,0,0,0.1);
     border-radius: 12px;
   }
@@ -41,9 +41,11 @@
   }
   
   .yt-issue-body__summary__input {
-    max-width: 80ch;
+    max-width: 76ch;
     margin-left: auto;
     margin-right: auto;
+    padding-left: var(--ring-unit);
+    padding-right: var(--ring-unit);
     border-radius: 12px;
   }
 }
