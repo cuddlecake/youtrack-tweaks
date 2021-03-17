@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name        YouTrack CSS Tweaks
-@version     2021.3.2
+@version     2021.3.3
 @namespace   cuddlecake
 @homepageURL https://github.com/cuddlecake/youtrack-tweaks
 @updateURL   https://cuddlecake.github.io/youtrack-tweaks/youtrack-tweaks.user.css
@@ -27,13 +27,20 @@
     font-size: 0.875rem !important;
   }
   
-  .yt-issue-body__description-common {
+  yt-markup :is(p) {
     max-width: 70ch;
-    margin-left: auto;
-    margin-right: auto;
+    font-size: 16px;
+  }
+  
+  yt-markup :is(h1, h2, h3, h4, h5, h6) {
+    max-width: 50ch;
+  }
+  
+  .yt-issue-body__description-common {
     padding: var(--ring-unit);
     background: rgba(0,0,0,0.1);
     border-radius: 12px;
+    margin-left: 0;
   }
   
   .yt-issue-body__description__copy {
@@ -42,10 +49,10 @@
   
   .yt-issue-body__summary__input {
     max-width: 76ch;
-    margin-left: auto;
     margin-right: auto;
     padding-left: var(--ring-unit);
     padding-right: var(--ring-unit);
     border-radius: 12px;
   }
 }
+
