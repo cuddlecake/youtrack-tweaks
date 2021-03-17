@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name        YouTrack CSS Tweaks
-@version     2021.3.3
+@version     2021.3.4
 @namespace   cuddlecake
 @homepageURL https://github.com/cuddlecake/youtrack-tweaks
 @updateURL   https://cuddlecake.github.io/youtrack-tweaks/youtrack-tweaks.user.css
@@ -36,9 +36,16 @@
     max-width: 50ch;
   }
   
+  html:not(.theme-dark) .yt-issue-body__description-common {
+    background: rgba(0,0,0,0.05);
+  }
+  
+  html.theme--dark .yt-issue-body__description-common {
+    background: rgba(0,0,0,0.1);
+  }
+  
   .yt-issue-body__description-common {
     padding: var(--ring-unit);
-    background: rgba(0,0,0,0.1);
     border-radius: 12px;
     margin-left: 0;
   }
@@ -55,4 +62,3 @@
     border-radius: 12px;
   }
 }
-
