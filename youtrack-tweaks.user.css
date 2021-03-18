@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name        YouTrack CSS Tweaks
-@version     2021.3.4
+@version     2021.3.5
 @namespace   cuddlecake
 @homepageURL https://github.com/cuddlecake/youtrack-tweaks
 @updateURL   https://cuddlecake.github.io/youtrack-tweaks/youtrack-tweaks.user.css
@@ -37,7 +37,7 @@
   }
   
   html:not(.theme-dark) .yt-issue-body__description-common {
-    background: rgba(0,0,0,0.05);
+    background: rgba(0,0,0,0.03);
   }
   
   html.theme--dark .yt-issue-body__description-common {
