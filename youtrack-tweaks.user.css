@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name        YouTrack CSS Tweaks
-@version     2021.3.5
+@version     2021.3.6
 @namespace   cuddlecake
 @homepageURL https://github.com/cuddlecake/youtrack-tweaks
 @updateURL   https://cuddlecake.github.io/youtrack-tweaks/youtrack-tweaks.user.css
@@ -60,5 +60,9 @@
     padding-left: var(--ring-unit);
     padding-right: var(--ring-unit);
     border-radius: 12px;
+  }
+  
+  .yt-notifications-container {
+    width: clamp(400px, 50vw, 720px) !important
   }
 }
